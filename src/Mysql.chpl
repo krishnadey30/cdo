@@ -485,11 +485,6 @@ module Mysql{
     }
   }
 
-  pragma "no doc"
-  class MySqlQueryBuilder:QueryBuilderBase {
-    proc init() {}
-  }
-
 pragma "no doc"
 module MysqlNative {
 
